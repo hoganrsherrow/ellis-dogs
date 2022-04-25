@@ -37,9 +37,6 @@ header h1 {
 header nav {
     margin: 7px 0;
 }
-/* header nav ul {
-    list-style-type: none;
-} */
 header nav ul li {
     display: inline;
 }
