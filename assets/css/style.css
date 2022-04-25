@@ -1,4 +1,53 @@
+:root {
+    --dark-green: #006D77;
+    --light-green: #83C5B3;
+    --gray: #EDF6F9;
+    --pink: #FFDDD2;
+    --brown: #E29578;
+}
 /* Element Selectors */
-
-
-/* Utility Classes */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: var(--dark-green);
+}
+/*Element Selectors End */
+/* Utility Classes Start */
+.float-right {
+    float: right;
+}
+/* Header Style Start*/
+header {
+    padding: 20px 35px;
+    background-color: var(--dark-green);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+header h1 {
+    color: var(--pink);
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    display: inline;
+}
+header nav {
+    margin: 7px 0;
+}
+/* header nav ul {
+    list-style-type: none;
+} */
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    text-decoration: none;
+    color: var(--pink);
+}
+/* Header Style End */
