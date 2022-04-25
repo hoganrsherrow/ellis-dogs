@@ -2,3 +2,12 @@
 
 
 /* Utility Classes */
+
+/* Hero Syle */
+.hero {
+    width: 100vw;
+    height: 44vh;
+    background-image: url("../images/hero-photo.jpg");
+    background-size: cover;
+    background-position: center;
+}
