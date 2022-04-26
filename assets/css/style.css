@@ -13,6 +13,7 @@
 }
 body {
     color: var(--dark-green);
+    background-color: var(--gray);
 }
 /*Element Selectors End */
 /* Utility Classes Start */
@@ -49,7 +50,6 @@ header nav ul li a {
     color: var(--pink);
 }
 /* Header Style End */
-
 /* Hero Syle */
 .hero {
     width: 100vw;
@@ -58,3 +58,32 @@ header nav ul li a {
     background-size: cover;
     background-position: center;
 }
+/* Hero Style End */
+/* Puppies Style Start */
+#puppies {
+    display: flex;
+}
+.carousel-holder {
+    width: 25%;
+    background-color: var(--pink);
+    margin: 10px;
+}
+.profile-holder {
+    width: 75%;
+    background-color: var(--pink);
+    margin: 10px;
+}
+.profile-holder h2 {
+    text-align: center;
+}
+.profile-flexbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.profile-flexbox div {
+    width: 200px;
+    height: 200px;
+    background-color: var(--brown);
+}
+/*Puppies Style End */
