@@ -3,31 +3,45 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="./assets/css/style.css" />
         <title>Ellis Dogs</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="./assets/css/style.css" /> -->
+        
     </head>
     <body>
         <!-- Hero Block -->
         <section>
             <!-- Header Section -->
-            <header>
-                <h1>Ellis Acres Aussiedoodles</h1>
-                <nav>
-                    <ul>
-                        <!-- New page -->
-                        <li>Meet the parents</li>
-                        <!-- To footer contact link -->
-                        <li>Contact Us</li>
-                        <!-- New page -->
-                        <li>Services</li>
-                        <!-- To section -->
-                        <li>A day in the life pics</li>
-                    </ul>
-                    <a>Facebook</a>
-                    <a>Instagram</a>
-                </nav>
-            </header>
+            <nav class="navbar navbar-expand-lg bg-light sticky-top">
+                <div class="container">
+                    <a href="#" class="navbar-brand">Ellis Acres Aussiedoodles</a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navbarToggler"  aria-label="Toggle Navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarmenu">
+                        <ul class="navbar nav me-auto mb-2 mb-lg-0">
+                            <!-- New page -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="parents.html">Meet the Parents</a>
+                            </li>
+                            <!-- To footer contact link -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#footer">Contact Us</a>
+                            </li>
+                            <!-- New page -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <!-- To section -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#life-section">A day in the life pics</a>
+                            </li>
+                        </ul>
+                        <a>Facebook</a>
+                        <a>Instagram</a>
+                    </div>
+                </div>
+            </nav>
         </section>
         <!-- Maybe About Us? -->
         <section>
@@ -62,11 +76,11 @@
         </section>
 
         <!-- A day in the life section -->
-        <section>
+        <section id="life-section">
         </section>
 
         <!-- Footer -->
-        <footer>
+        <footer id="footer">
             <h2>Ellis Acres Aussiedoodles</h2>
             <!-- Nav Links -->
             <nav>
@@ -75,5 +89,7 @@
                 <a>Services</a>
             </nav>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     </body>
 </html>
